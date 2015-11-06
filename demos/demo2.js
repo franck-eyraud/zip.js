@@ -1,5 +1,7 @@
 (function(obj) {
 
+        zip.useWebWorkers=false;
+
 	var requestFileSystem = obj.webkitRequestFileSystem || obj.mozRequestFileSystem || obj.requestFileSystem;
 
 	function onerror(message) {
